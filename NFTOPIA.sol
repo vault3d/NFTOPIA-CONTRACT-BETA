@@ -879,16 +879,13 @@ contract NFTOPIA is IBEP20, Ownable {
     uint256 private _tBuybackTotal;
 
     // wallet for burning
-    // address public constant burnWallet = address(0);
     address public constant burnWallet = 0x000000000000000000000000000000000000dEaD;
 
-    // address public constant burnWallet = 0xFda9B965879Bdd3a2F1a181d33F2b2A83f59a90B; //"receive bnb" Temporaily make the burn wallet a private wallet to ensure proper amount is burned
-
     // wallet for buybacks
-    address public constant buybackWallet = 0x9bD010a70DFe5B905bf176c2d2F98Af43c7bf603; // Change to NFTopia admin wallet address
+    address public constant buybackWallet = 0x000000000000000000000000000000000000dEaD; // Change to NFTopia admin wallet address
 
     // wallet for marketing
-    address public constant marketingWallet = 0x02BED9d6Ab20203a6f19706852430EdF0F0F4292; // Change to NFTopia marketing wallet
+    address public constant marketingWallet = 0x000000000000000000000000000000000000dEaD; // Change to NFTopia marketing wallet
 
     // Mainnet BSC - PancakeSwap Router V2
     //address private constant _pancakeRouterAddress = 0x10ED43C718714eb63d5aA57B78B54704E256024E; // USE THIS FOR LAUNCH
